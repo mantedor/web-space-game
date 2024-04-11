@@ -1,7 +1,8 @@
 # Build
-  Before actually building, we have to all depedencies 
+  Before actually building, we have to install all depedencies. 
   To build, we use a custom script to copy all resources (images) that don't get copied when building through Typescript
 ```
+npm i
 npm run build
 ```
 
