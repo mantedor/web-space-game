@@ -1,6 +1,6 @@
 # Build
   Before actually building, we have to install all depedencies. 
-  To build, we use a custom script to copy all resources (images) that don't get copied when building through Typescript
+  To build, we use a custom script to copy all resources (images) that don't get copied when building through Typescript, and a new folder with the recently built project will be created as ```/build```
 ```
 npm i
 npm run build
