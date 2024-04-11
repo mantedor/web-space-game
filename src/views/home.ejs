@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Station 13</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info">
+        <div class="atomname"></div>
+        <div class="atomdesc"></div>
+        <div class="micstatus">
+            <div id="micstatuscontent"></div>
+            <div id="micstatushearing"></div>
+        </div>
+    </div>
+    <!-- <div class="chat">
+        <%- include("./chat.ejs") %>
+    </div> !-->
+    <div class="screen">
+        <div class="map">
+            <%- gameMap.html %>
+        </div>
+    </div>
+</body>
+<script src="socket.io.min.js"></script>
+<script src="client.js"></script>
+<script src="voice.js"></script>
+<script src="socket_events.js"></script>
+<script src="render.js"></script>
+</html>
